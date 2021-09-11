@@ -16,7 +16,7 @@ def func(x):
 for i in range(int(input().split()[0])):
     a.append([int(i) for i in input().split()])
 
-a.sort(key=func)
+
 
 a = a[::-1]
 
